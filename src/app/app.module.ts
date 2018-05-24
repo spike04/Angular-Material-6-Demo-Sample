@@ -15,10 +15,11 @@ import {
   MatMenuModule
 } from '@angular/material'
 import { MyNavComponent } from './my-nav/my-nav.component'
-import { LayoutModule } from '@angular/cdk/layout'
+import { LayoutModule } from '@angular/cdk/layout';
+import { MyDashComponent } from './my-dash/my-dash.component'
 
 @NgModule({
-  declarations: [AppComponent, MyNavComponent],
+  declarations: [AppComponent, MyNavComponent, MyDashComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -28,7 +29,9 @@ import { LayoutModule } from '@angular/cdk/layout'
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
