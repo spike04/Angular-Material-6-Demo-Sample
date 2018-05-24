@@ -1,27 +1,26 @@
-# MatAng
+# Angular Material 6 Demo Sample
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+This is a demo Sample of the Tutorial Series from Youtube Channel [Coding$Gaming](https://www.youtube.com/channel/UCGIlJQZHt7GxJQMsZmWWRwg) - Playlist [Intro To Angular Material 6]() showing how to integrate [Angular Material](https://material.angular.io) to Angular 6 Project.
 
-## Development server
+This project includes all three templates provided by AngularMaterial Generate Command.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Navigation
+- Dashboard
+- Table
 
-## Code scaffolding
+For More Check out [Angular Schematics](https://material.angular.io/guide/schematics)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requirements
+- NodeJS installed (tested in 8.10.0)
+- Angular CLI (version 6) required
 
-## Build
+## To Run the Project
+- Clone the Project to the Desired Directory
+- Go into the project directory
+- ```npm install``` or ```yarn install``` or ```yarn``` to install required dependencies
+- ```ng serve``` to run the project on PORT: 4200
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Snap Shot of Final View
+![Final View](snap.png?raw=true 'Angular Material 6')
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Keep Coding.. 👍 😎
