@@ -12,14 +12,15 @@ import {
   MatListModule,
   MatGridListModule,
   MatCardModule,
-  MatMenuModule
+  MatMenuModule, MatTableModule, MatPaginatorModule, MatSortModule
 } from '@angular/material'
 import { MyNavComponent } from './my-nav/my-nav.component'
 import { LayoutModule } from '@angular/cdk/layout';
-import { MyDashComponent } from './my-dash/my-dash.component'
+import { MyDashComponent } from './my-dash/my-dash.component';
+import { MyTableComponent } from './my-table/my-table.component'
 
 @NgModule({
-  declarations: [AppComponent, MyNavComponent, MyDashComponent],
+  declarations: [AppComponent, MyNavComponent, MyDashComponent, MyTableComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -31,7 +32,10 @@ import { MyDashComponent } from './my-dash/my-dash.component'
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
